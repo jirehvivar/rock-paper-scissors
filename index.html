@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rock-Paper-Scissors</title>
+        <link rel ="stylesheet" href ="index.css">
+    </head>
+    <body>
+            <div id ="box">
+                <div id="title">
+                    Rock... Paper.. Scissors !
+                </div>
+            </div>
+            
+            <div class ="score">
+                <p class ="label">Player</p>
+                <p class ="label">Computer</p>
+            </div>
+            <div class ="scores">
+                <div class ="player frames">
+                    <p id ="playerScore">0</p>
+                    </div>
+                <div class ="comp frames">
+                    <p id="computerScore">0</p>
+                </div>
+            </div>
+            <div class ="results">
+                 
+            </div>
+            <div class ="rps">
+                <button class ="buttons" id ="rockButton">
+                    <img class ="rock frames" src ="resources/rock.png">
+                </button>
+                <button class ="buttons" id ="paperButton">
+                    <img class ="paper frames" src ="resources/paper.png">
+                </button>
+                <button class ="buttons" id ="scissorsButton">
+                    <img class ="scissors frames" src ="resources/scissors.png">
+                </button>
+                
+            </div>
+
+            <footer class ="footer">
+                <div>
+                    <p class ="footerHeader">Created by Jireh Vivar</p>
+                    <a href ="https://github.com/jirehvivar" target ="_blank">
+                        <img class ="github" src ="resources/github-mark-white.png">
+                    </a>
+                </div>
+            </footer>
+
+            <div class = "endMSG" id ="endGameBox">
+                <p class ="titleMSG" id ="endGameMsg"></p>
+                <p class ="inform">refresh page to reset</p>
+            </div>
+            <div class ="overlay" id ="overlay"></div>
+            <script src ="rock-paper-scissors.js"></script>
+        </body>
+    </html>
